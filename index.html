@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Proyecto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Facundo Casela</h1>
+      <p>Técnico Químico</p>
+      <img src="fotocv.png" alt="Mi foto">
+    </header>
+
+    <main>
+      <section>
+        <h2>Sobre mí</h2>
+        <p>Soy un técnico químico con un buen desarrollo individual y grupal en el ámbito de laboratorio y de planta. Poseo una alta capacidad de organización y atención a detalles a la hora de desenvolverme en el trabajo.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="button">Educación</h2>
+        <ul>
+          <li>Escuela Técnica N°2 "República del Perú" - Técnico Químico (2012 - 2018)</li>
+          <li>Universidad Nacional de Hurlingham - Licenciatura en Biotecnología (2019 - actualidad)</li>
+          <li>Freecodecamp - Diseñador Web Adaptable (2022)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="button">Experiencia laboral</h2>
+        <ul>
+          <li>Desynth S.A - Operario de Producción (Agosto 2022 - actualidad)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="button">Habilidades</h2>
+        <ul>
+          <li>Aplicación de GMP y Normas ISO 9001</li>
+          <li>Uso de HPLC y Espectroscómetro UV-Visible</li>
+          <li>Curso de Manipulación de Alimentos</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <button id="contact-button">Contacto</button>
+    </footer>
+  </div>
+
+  <script>
+    const contactButton = document.getElementById("contact-button");
+  contactButton.addEventListener("click", () => {
+  window.open("", "_blank", "width=300,height=200");
+  alert("Contacto: facucasela@gmail.com");
+});
+  </script>
+</body>
+</html>
